@@ -4,11 +4,15 @@ var bodyParser = require('body-parser');
 var pgp = require('pg-promise')();
 var db = pgp('postgres://localhost:5432/generator');
 
+//have form action = "/users/new" for html
+
 app.use(express.static(__dirname + '/public'));
 
 app.use(bodyParser.urlencoded({extended: false}))
 
-app.use(bodyParser.json())app.use( function( req, res, next ) {
+app.use(bodyParser.json())
+
+app.use( function( req, res, next ) {
   if (req.query._method == 'DELETE') {
     req.method = 'DELETE';
     req.url = req.path;
