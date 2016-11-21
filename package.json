@@ -1,0 +1,23 @@
+{
+  "name": "sql-challenge",
+  "version": "1.0.0",
+  "description": "SQL blog post excercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronmorgenegg/sql-challenge.git"
+  },
+  "author": "Aaron Morgenegg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronmorgenegg/sql-challenge/issues"
+  },
+  "homepage": "https://github.com/aaronmorgenegg/sql-challenge#readme",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  }
+}

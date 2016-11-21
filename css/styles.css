@@ -1,0 +1,286 @@
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: #53507E;
+}
+nav {
+  height: 37px;
+  width: 1100px;
+  margin-top: 30px;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 115px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+}
+nav li a {
+  float:right;
+  margin-left: 35px;
+  margin-top: 12px;
+  color: #B1AEDE;
+  text-decoration: none;
+}
+nav li b {
+  float:left;
+  margin-right: 35px;
+  margin-top: 10px;
+  margin-left: 70px;
+  color: #B1AEDE;
+}
+nav li i {
+  float:right;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+nav li i :hover{
+  opacity: .75;
+}
+nav li :hover {
+  color: white;
+}
+
+nav li .active{
+  color: white;
+  border-bottom-style: solid;
+  border-bottom-color: #FF8ED8;
+  border-bottom-width: 2px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #403D65
+}
+
+.aboutBody {
+  width: 750px;
+  height: 120px;
+  padding: 80px 80px 80px 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+  background-color: white;
+  box-shadow: 0px 0px 100px rgba(255, 255, 255, .75);
+}
+
+.aboutTitle {
+  font-family: "Raleway",sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #FF8ED8;
+  margin-bottom: 35px;
+}
+
+.aboutTitleBody {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5C5C5C;
+  max-width: 480px;
+}
+
+.aboutJebediah {
+  padding: 80px 80px 80px 180px;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.aboutJebediahImage {
+  width: 208px;
+  position:absolute;
+  top: -40px;
+  left: -100px;
+  border: 20px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+}
+
+.aboutJezabelle {
+  padding: 80px 180px 80px 80px;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+  float: right;
+}
+
+.aboutJezabelleImage {
+  width: 208px;
+  position:absolute;
+  top: -40px;
+  right: -100px;
+  border: 20px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+}
+
+.homeLogo {
+  float: left;
+  margin-left: 70px;
+}
+
+.mainContent {
+  width: 1200px;
+  margin: auto;
+}
+
+.sodaImage {
+  margin-left: 70px;
+  float:left;
+  width: 550px;
+  display: inline-block;
+  animation: none;
+}
+
+.sodaImage:hover{
+  -webkit-animation: wiggle 0.5s infinite;
+}
+
+.sodaAdvertHeadline {
+  float:left;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 52px;
+  color: white;
+  line-height: 56px;
+  margin-bottom: 35px;
+  width: 550px;
+}
+
+.sodaAdvertSubtext {
+  float:left;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #B1AEDE;
+  margin-bottom: 120px;
+  width: 550px;
+}
+
+.sodaButton {
+  float:left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 45px;
+  padding-left: 45px;
+  border-radius: 40px;
+  box-shadow: 0 0 30px rgba(255,142,216,0.75);
+  background-color: #FF8ED8;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+}
+
+.sodaButton:hover {
+  box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+  color: #403D65;
+}
+
+.footerCopyright {
+  height: 35px;
+  margin-top: 15px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #B1AEDE;
+  text-align: center;
+}
+
+.contactForm {
+  width: 500px;
+  margin: auto;
+}
+
+.contactInput {
+  width: 500px;
+  outline-style: none;
+  border-width: 0;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: white;
+  height: 35px;
+  background: none;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  padding-left: 0px;
+}
+
+.contactButton {
+  padding: 20px 45px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(255,142,216,0.75);
+  background-color: #FF8ED8;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+  width: 265px;
+}
+
+.contactButton:hover {
+  box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+  color: #403D65;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #403D65;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #403D65;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #403D65;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #403D65;
+  opacity: 1;
+}
+
+@-webkit-keyframes wiggle {
+	0% {
+		-webkit-transform:rotate(4deg);
+	}
+	50% {
+		-webkit-transform:rotate(-4deg);
+	}
+	100% {
+		-webkit-transform:rotate(4deg);
+	}
+}
