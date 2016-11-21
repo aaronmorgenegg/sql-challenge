@@ -18,6 +18,7 @@
   "homepage": "https://github.com/aaronmorgenegg/sql-challenge#readme",
   "dependencies": {
     "ejs": "^2.5.2",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "pg-promise": "^3.2.3"
   }
 }
